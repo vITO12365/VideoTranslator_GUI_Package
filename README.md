@@ -37,3 +37,13 @@ GPT 增強模式
 注意
 - 請保留 VideoTranslator.exe 旁邊的 _internal 與 tools 資料夾。
 - 預設會把每部影片放到 results\影片名稱 的獨立資料夾。
+
+原始碼執行
+----------
+
+1. 使用 Python 3.11 安裝 `requirements.txt`。
+2. 安裝 FFmpeg，並準備 Whisper 模型與本機 Ollama/Sakura 模型。
+3. 執行 `python video_translator_gui.py` 開啟視窗介面。
+
+儲存庫不包含影片、輸出字幕、API Key、快取、模型或打包後的執行環境。
+GPT 增強模式只會讀取執行當下輸入的 OpenAI API Key，不會將它寫入檔案。
